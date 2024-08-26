@@ -1,0 +1,7 @@
+.footer {
+    background-color: var(--page-main-color);
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

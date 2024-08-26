@@ -1,0 +1,108 @@
+.metodo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 40px solid var(--page-main-color);
+}
+
+.metodoHeading {
+    font-family: var(--font-heading);
+    font-size: 30px;
+    color: var(--page-main-color);
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.metodoContent {
+    display: flex;
+}
+
+.metodoImage {
+    height: 488px;
+    width: 491px;
+    background-image: url(../../../public/metodoIMG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right -140px bottom;
+}
+
+.metodoText {
+    margin-left: 100px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.metodoTextHeading {
+    font-family: var(--font-heading);
+    font-size: 40px;
+    margin-top: 0;
+}
+
+.metodoTextP {
+    max-width: 695px;
+    font-size: 15px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.metodoText a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    width: 275px;
+    height: 40px;
+    background-color: var(--page-main-color);
+    color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+.metodoFrase {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.metodoFraseP {
+    max-width: 770px;
+    margin-bottom: 0;
+    font-family: var(--font-text);
+    font-size: 20px;
+    line-height: 40px;
+    word-spacing: 2px;
+    text-align: center;
+}
+
+.metodoFraseH {
+    margin: 0;
+    font-family: var(--font-heading);
+    font-size: 15px;
+    color: var(--page-main-color);
+}
+
+@media only screen and (max-width: 1250px) {
+    .metodoContent{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .metodoText {
+        margin: 0;
+        align-items: center;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .metodoImage {
+        width: 300px;
+        height: 300px;
+    }
+}

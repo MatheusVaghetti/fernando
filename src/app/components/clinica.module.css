@@ -1,0 +1,62 @@
+.clinica {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border-bottom: 40px solid var(--page-main-color);
+}
+
+.clinicaImage {
+    height: 430px;
+    width: 430px;
+    background-color: lightgrey;
+}
+
+.clinicaText {
+    max-width: 590px;
+    margin-left: 90px;
+}
+
+.clinicaTextHeading {
+    font-family: var(--font-heading);
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.clinicaTextP {
+    font-size: 15px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.clinicaText a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 275px;
+    height: 40px;
+    border: 2px solid var(--page-main-color);
+    color: var(--text-color);
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1250px) {
+    .clinica {
+        flex-direction: column;
+    }
+
+    .clinicaImage {
+        margin-right: 0;
+        width: 300px;
+        height: 300px;
+    }
+
+    .clinicaText {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 0;
+    }
+}

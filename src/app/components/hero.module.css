@@ -1,0 +1,40 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 540px;
+    background-color: black;
+    color: white;
+}
+
+.heroText {
+    text-align: center;
+    font-family: var(--font-heading);
+    margin-top: 200px;
+}
+
+.heroText h1 {
+    font-size: 60px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.heroText h2 {
+    font-family: var(--font-text);
+    font-size: 20px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.heroText h3 {
+    font-family: var(--font-text);
+    font-size: 20px;
+    margin: 0;
+    font-weight: normal;
+}
+
+@media only screen and (max-width: 550px) {
+    .heroText h1 {
+        font-size: 45px;
+    }
+}

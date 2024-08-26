@@ -1,0 +1,44 @@
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.aboutText {
+    max-width: 515px;
+    margin-right: 150px;
+}
+
+.aboutTextHeading {
+    font-family: var(--font-heading);
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.aboutTextP {
+    font-size: 15px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.aboutImage {
+    height: 430px;
+    width: 430px;
+    background-color: grey;
+}
+
+@media only screen and (max-width: 1250px) {
+    .about {
+        flex-direction: column;
+    }
+
+    .aboutText {
+        margin-right: 0px;
+    }
+
+    .aboutImage {
+        width: 300px;
+        height: 300px;
+    }
+}
