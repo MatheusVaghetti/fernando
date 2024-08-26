@@ -39,6 +39,7 @@
     font-family: var(--font-heading);
     font-size: 40px;
     margin-top: 0;
+    text-align: center;
 }
 
 .metodoTextP {
@@ -81,6 +82,7 @@
 
 .metodoFraseH {
     margin: 0;
+    margin-right: 10px;
     font-family: var(--font-heading);
     font-size: 15px;
     color: var(--page-main-color);
@@ -97,6 +99,7 @@
         margin: 0;
         align-items: center;
         margin-top: 20px;
+        margin-left: 20px;
     }
 }
 
