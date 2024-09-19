@@ -13,6 +13,22 @@
     margin-top: 200px;
 }
 
+.heroTextBlue {
+    color: blue;
+}
+
+.heroTextYellow {
+    color: yellow;
+}
+
+.heroTextPurple {
+    color: purple;
+}
+
+.heroTextRed {
+    color: red;
+}
+
 .heroText h1 {
     font-size: 60px;
     margin: 0;

@@ -16,6 +16,7 @@
 
 .metodoContent {
     display: flex;
+    margin-bottom: 50px;
 }
 
 .metodoImage {
@@ -59,6 +60,14 @@
     background-color: var(--page-main-color);
     color: #fff;
     border-radius: 40px;
+    border: 2px solid var(--page-main-color);
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+.metodoText a:hover {
+    color: black;
+    background-color: white;
     text-decoration: none;
 }
 

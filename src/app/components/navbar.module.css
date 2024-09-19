@@ -26,7 +26,13 @@
 
 .navbarLinks li a {
     text-decoration: none;
-    color: var(--text-color);
+    color: #345058;
+    transition: 0.1s;
+}
+
+.navbarLinks li a:hover {
+    color: black;
+    border-bottom: 2px solid var(--page-main-color);
 }
 
 .navbarIcon a img {

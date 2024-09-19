@@ -2,12 +2,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     background-color: #f7f7f7;
     border-bottom: 40px solid var(--page-main-color);
 }
 
 .procedimentoContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.procedimentoContent {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,6 +29,18 @@
 
 .procedimentoHeading {
     font-size: 30px;
+    text-align: center;
+    color: var(--page-main-color);
+    font-family: var(--font-text);
+}
+
+.procedimentoHeadingS {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    max-width: 190px;
+    text-align: center;
     color: var(--page-main-color);
     font-family: var(--font-text);
 }
@@ -61,6 +80,30 @@
     color: black;
     font-size: 15px;
     margin-bottom: 100px;
+}
+
+.procedimentoPP {
+    max-width: 250px;
+    margin-top: 10px;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.procedimentoPS {
+    max-width: 250px;
+    margin-top: 20px;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 15px;
+    margin-bottom: 0px;
 }
 
 @media only screen and (max-width: 1250px) {
