@@ -62,8 +62,10 @@
 }
 
 @media only screen and (max-width: 1250px) {
-    .clinica {
+    .clinicaContainer {
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .clinicaImage {
@@ -78,5 +80,16 @@
         justify-content: center;
         flex-direction: column;
         margin-left: 0;
+    }
+
+    .clinicaText2 {
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+
+    .clinicaTextHeading {
+        text-align: center;
     }
 }

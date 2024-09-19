@@ -107,7 +107,7 @@
 }
 
 @media only screen and (max-width: 1250px) {
-    .procedimento {
+    .procedimentoContainer {
         flex-direction: column;
         border-bottom: none;
     }
